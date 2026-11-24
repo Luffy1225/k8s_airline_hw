@@ -1,0 +1,19 @@
+# Virtual environment
+venv/
+.venv/
+
+# Node modules
+node_modules/
+frontend/node_modules/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+backend/__pycache__/
+backend/data/__pycache__/
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log

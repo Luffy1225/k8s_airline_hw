@@ -1,0 +1,222 @@
+AIRPORTS = {
+    "TPE": {
+        "iata": "TPE",
+        "icao": "RCTP",
+        "name": "Taoyuan International Airport",
+        "city": "Taipei",
+        "country": "Taiwan",
+        "lat": 25.0797,
+        "lng": 121.2342,
+        "timezone": "UTC+8",
+        "is_hub": True
+    },
+    "TSA": {
+        "iata": "TSA",
+        "icao": "RCSS",
+        "name": "Taipei Songshan Airport",
+        "city": "Taipei",
+        "country": "Taiwan",
+        "lat": 25.0697,
+        "lng": 121.5525,
+        "timezone": "UTC+8",
+        "is_hub": True
+    },
+    "KHH": {
+        "iata": "KHH",
+        "icao": "RCKH",
+        "name": "Kaohsiung International Airport",
+        "city": "Kaohsiung",
+        "country": "Taiwan",
+        "lat": 22.5711,
+        "lng": 120.3500,
+        "timezone": "UTC+8",
+        "is_hub": False
+    },
+    "NRT": {
+        "iata": "NRT",
+        "icao": "RJAA",
+        "name": "Narita International Airport",
+        "city": "Tokyo",
+        "country": "Japan",
+        "lat": 35.7647,
+        "lng": 140.3864,
+        "timezone": "UTC+9",
+        "is_hub": False
+    },
+    "HND": {
+        "iata": "HND",
+        "icao": "RJTT",
+        "name": "Tokyo Haneda Airport",
+        "city": "Tokyo",
+        "country": "Japan",
+        "lat": 35.5533,
+        "lng": 139.7811,
+        "timezone": "UTC+9",
+        "is_hub": False
+    },
+    "KIX": {
+        "iata": "KIX",
+        "icao": "RJBB",
+        "name": "Kansai International Airport",
+        "city": "Osaka",
+        "country": "Japan",
+        "lat": 34.4347,
+        "lng": 135.2442,
+        "timezone": "UTC+9",
+        "is_hub": False
+    },
+    "ICN": {
+        "iata": "ICN",
+        "icao": "RKSI",
+        "name": "Incheon International Airport",
+        "city": "Seoul",
+        "country": "South Korea",
+        "lat": 37.4691,
+        "lng": 126.4505,
+        "timezone": "UTC+9",
+        "is_hub": False
+    },
+    "SIN": {
+        "iata": "SIN",
+        "icao": "WSSS",
+        "name": "Singapore Changi Airport",
+        "city": "Singapore",
+        "country": "Singapore",
+        "lat": 1.3644,
+        "lng": 103.9915,
+        "timezone": "UTC+8",
+        "is_hub": False
+    },
+    "BKK": {
+        "iata": "BKK",
+        "icao": "VTBS",
+        "name": "Suvarnabhumi Airport",
+        "city": "Bangkok",
+        "country": "Thailand",
+        "lat": 13.6900,
+        "lng": 100.7501,
+        "timezone": "UTC+7",
+        "is_hub": False
+    },
+    "HKG": {
+        "iata": "HKG",
+        "icao": "VHHH",
+        "name": "Hong Kong International Airport",
+        "city": "Hong Kong",
+        "country": "China",
+        "lat": 22.3080,
+        "lng": 113.9185,
+        "timezone": "UTC+8",
+        "is_hub": False
+    },
+    "LAX": {
+        "iata": "LAX",
+        "icao": "KLAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "United States",
+        "lat": 33.9425,
+        "lng": -118.4081,
+        "timezone": "UTC-8",
+        "is_hub": False
+    },
+    "SFO": {
+        "iata": "SFO",
+        "icao": "KSFO",
+        "name": "San Francisco International Airport",
+        "city": "San Francisco",
+        "country": "United States",
+        "lat": 37.6213,
+        "lng": -122.3790,
+        "timezone": "UTC-8",
+        "is_hub": False
+    },
+    "SEA": {
+        "iata": "SEA",
+        "icao": "KSEA",
+        "name": "Seattle-Tacoma International Airport",
+        "city": "Seattle",
+        "country": "United States",
+        "lat": 47.4502,
+        "lng": -122.3088,
+        "timezone": "UTC-8",
+        "is_hub": False
+    },
+    "JFK": {
+        "iata": "JFK",
+        "icao": "KJFK",
+        "name": "John F. Kennedy International Airport",
+        "city": "New York",
+        "country": "United States",
+        "lat": 40.6413,
+        "lng": -73.7781,
+        "timezone": "UTC-5",
+        "is_hub": False
+    },
+    "LHR": {
+        "iata": "LHR",
+        "icao": "EGLL",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "United Kingdom",
+        "lat": 51.4700,
+        "lng": -0.4543,
+        "timezone": "UTC+0",
+        "is_hub": False
+    },
+    "CDG": {
+        "iata": "CDG",
+        "icao": "LFPG",
+        "name": "Paris Charles de Gaulle Airport",
+        "city": "Paris",
+        "country": "France",
+        "lat": 49.0097,
+        "lng": 2.5479,
+        "timezone": "UTC+1",
+        "is_hub": False
+    },
+    "MXP": {
+        "iata": "MXP",
+        "icao": "LIMC",
+        "name": "Milan Malpensa Airport",
+        "city": "Milan",
+        "country": "Italy",
+        "lat": 45.6306,
+        "lng": 8.7281,
+        "timezone": "UTC+1",
+        "is_hub": False
+    },
+    "VIE": {
+        "iata": "VIE",
+        "icao": "LOWW",
+        "name": "Vienna International Airport",
+        "city": "Vienna",
+        "country": "Austria",
+        "lat": 48.1103,
+        "lng": 16.5697,
+        "timezone": "UTC+1",
+        "is_hub": False
+    },
+    "BNE": {
+        "iata": "BNE",
+        "icao": "YBBN",
+        "name": "Brisbane Airport",
+        "city": "Brisbane",
+        "country": "Australia",
+        "lat": -27.3842,
+        "lng": 153.1175,
+        "timezone": "UTC+10",
+        "is_hub": False
+    },
+    "SYD": {
+        "iata": "SYD",
+        "icao": "YSSY",
+        "name": "Sydney Kingsford Smith Airport",
+        "city": "Sydney",
+        "country": "Australia",
+        "lat": -33.9461,
+        "lng": 151.1772,
+        "timezone": "UTC+10",
+        "is_hub": False
+    }
+}
